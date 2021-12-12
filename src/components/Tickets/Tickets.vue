@@ -175,6 +175,7 @@ footer div.cointer__footer__media{
     display: flex;
     flex-direction: column;
     font-size: 16px;
+    height:fit-content;
     margin: 65px 0 10px 45px;
     width: 15vw;
 }
