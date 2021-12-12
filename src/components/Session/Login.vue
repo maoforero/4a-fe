@@ -99,7 +99,7 @@
 
 .inputDataUserImg, .inputDataPassImg {
     align-self:center;
-    border: 1px solid black;
+    border: 1px solid #6E7C7C;
     border-radius: 3px;
     display:flex;
     height:35px;
@@ -110,7 +110,7 @@
 
 .login--inputDataUser > input{
     align-self: center;
-    border: 1px solid black;
+    border: 1px solid  #6E7C7C;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@
 
 .login--inputDataPass > input {
     align-self: center;
-    border: 1px solid black;
+    border: 1px solid  #6E7C7C;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
