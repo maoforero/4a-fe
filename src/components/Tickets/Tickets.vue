@@ -2,19 +2,191 @@
     <header>
         <div id="container__header">
             <div id="container__icon">
-                <img src="./assest/game-control.png" alt="logo de pits games">
-                <span id="icon__span">PITS GAMES</span>
+                <img src="../../assets/movie-frame.png" alt="logo de premiere">
+                <span id="icon__span">Premiere</span>
             </div>
             <nav id="container__menu">
                 <ul id="menu--list">
                     <li class="list--option"><a href="">Inicio</a></li>
-                    <li class="list--option"><a href="">Juegos</a></li>
-                    <li class="list--option"><a href="">Hardware</a></li>
+                    <li class="list--option"><a href="">Eventos</a></li>
+                    <li class="list--option"><a href="">Tickets</a></li>
+                    <li class="list--option"><a href="">Ventas</a></li>
                     <li class="list--option"><a href="">Perfil</a></li>
-                    <li class="list--option"><a href="">Lista</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
+    <footer>
+        <div class="cointer__footer__description">
+            <div class="footer__description--logo">
+                <img src="https://www.misiontic2022.gov.co/746/channels-645_logo_misiontic.png" alt="logo mision tic">
+            </div>
+            <div class="footer__description__info">
+                <p>Web development project for MisionTic2022. Universidad Nacional de Colombia. </p>
+            </div>
+        </div>
+        <div class="cointer__footer__team">
+            <h6>Members</h6>
+            <a href="" class="footer__team--profile">Forero Mauro</a>
+            <a href="" class="footer__team--profile">Franco Jesus</a>
+            <a href="" class="footer__team--profile">Paula</a>
+        </div>
+        <div class="cointer__footer__media">
+            <h6>Social Media</h6>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Bitbucket</a>
+        </div>
+    </footer>
 </template>
+
+
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma
+}
+
+html{
+    background-color: #DDDDDD ;
+    
+}
+
+/* Header CSS */
+header{
+    background-color: #DDDDDD;
+    border-radius: 0 0 9px 9px;
+    position: sticky;
+    top: 0;
+    z-index: 6;
+}
+
+#container__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container__icon{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 65px 20px 65px;
+    width: 250px;
+}
+
+#container__icon span{
+    color: #000;
+    font-size: 21px;
+    font-style: italic;
+}
+
+
+#container__menu{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 65px 20px 65px;
+}
+
+#menu--list{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#menu--list li a{
+    color: #000;
+    font-size: 21px;
+    margin-left: 25px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#menu--list li a:hover {
+    color: #2EE59D;
+}
+
+/* Footer */
+
+footer{
+    background-color: #27ae60;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    height: 37vh;
+    width: 100%;
+}
+
+footer div.cointer__footer__description{
+    height: 35vh;
+    margin: 20px 0 10px 25px;
+    padding: 10px;
+    width: 25vw;
+}
+
+.footer__description--logo img{
+    height: 125px;
+    padding: 15px;
+    width: auto;
+}
+
+.footer__description__info{
+    margin-top: 15px;
+}
+
+.footer__description__info p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    width: 35vh;
+}
+
+footer div.cointer__footer__team{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    margin: 65px 0 10px 45px;
+    width: 15vw;
+}
+
+footer div.cointer__footer__team h6{
+    color: white;
+    font-size: 25px;
+}
+
+footer div.cointer__footer__team a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer div.cointer__footer__media{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin: 65px 0 10px 45px;
+    width: 15vw;
+}
+
+footer div.cointer__footer__media h6{
+    color: white;
+    font-size: 25px;
+}
+
+footer div.cointer__footer__media a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+</style>

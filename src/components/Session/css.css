@@ -24,12 +24,12 @@
     height: 20px;
     justify-content: center;
     margin: 5px;
-    width: 60%
+    width: 60%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
 .container__login--mainImage{
     background-color: rgba(24,179,2,1);
     cursor: pointer;
-    text-decoration: ;
 }
