@@ -26,3 +26,9 @@
     margin: 5px;
     width: 60%
 }
+
+
+.container__login--mainImage{
+    background-color: rgba(24,179,2,1);
+    cursor: pointer;
+}
