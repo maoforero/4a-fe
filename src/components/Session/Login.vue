@@ -20,6 +20,7 @@
                         <p><a>Recuperar contraseña</a></p>
                     </div>
                 </div>
+                <hr class="line">
                 <div class="login--socialMedia">
                     <p>Iniciar sesión con:</p>
                     <button class="socialMedia--buttonGoogle">Google</button>
@@ -205,7 +206,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top:25px;
+    margin-top:5px;
     justify-content: center;
 }
 
@@ -238,5 +239,11 @@
     border-bottom: 1px solid #2ecc71;
 }
 
+.line{
+    background-color: #000;
+    border-radius:5px;
+    height: 3px;
+    margin-top:15px;
+}
 
 </style>
