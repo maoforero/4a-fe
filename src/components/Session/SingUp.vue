@@ -10,7 +10,7 @@
 
                 <div class="login--inputDataPass">
                     <img class="inputDataPassImg" src="../../assets/generation.png"/>
-                    <input type="Text" placeholder="Apellido">
+                    <input type="text" placeholder="Apellido">
                 </div>
 
                 <div class="login--inputDataPass">
