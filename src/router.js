@@ -14,30 +14,30 @@ const routes = [
     component: App
   },
   {
-    path: '/login',
+    path: '/user/login',
     name: 'login',
-    component: 'Login',
+    component: Login,
   },
-  {
-    path: '/signup',
-    name: 'signup',
-    component: 'Signup',
-  },
-  {
-    path: '/sales',
-    name: 'sales',
-    component:'Sales'
-  },
-  {
-    path: '/events',
-    name: 'events',
-    component:'Events'
-  },
-  {
-    path: '/tickets',
-    name: 'tickets',
-    component:'Tickets'
-  }
+  // {
+  //   path: '/signup',
+  //   name: 'signup',
+  //   component: 'Signup',
+  // },
+  // {
+  //   path: '/sales',
+  //   name: 'sales',
+  //   component:'Sales'
+  // },
+  // {
+  //   path: '/events',
+  //   name: 'events',
+  //   component:'Events'
+  // },
+  // {
+  //   path: '/tickets',
+  //   name: 'tickets',
+  //   component:'Tickets'
+  // }
 ]
 
 const router = createRouter({

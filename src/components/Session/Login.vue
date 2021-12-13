@@ -44,7 +44,8 @@
 }
 
 .main__login{
-    height: 100vh;
+    height: auto;
+    margin:45px;
     width: 100%;
 
 }
@@ -248,3 +249,12 @@
 }
 
 </style>
+
+<script>
+    export default{
+        name: "login",
+        data: function() {},
+        methods:{},
+        created: function (){}
+    }
+</script>

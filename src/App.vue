@@ -16,8 +16,9 @@
             </nav>
         </div>
     </header>
-
-
+    <div>
+      <router-view></router-view>
+    </div>
     <footer>
         <div class="cointer__footer__description">
             <div class="footer__description--logo">
@@ -43,7 +44,21 @@
     </footer>
 </template>
 
+<script>
+  export default{
+      name: "App",
+      data: function() {},
+      methods:{
+        LoadLogin(){
+          this.$router.push({name: "login"})
+        }
 
+      },
+      created: function (){
+        this.LoadLogin()
+      }
+  }
+</script>
 
 <style>
 
@@ -51,12 +66,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Tahoma
+    font-family: Tahoma;
+}
+
+#app{
+  display:flex;
+  flex-direction: column;
+  height:100%;
 }
 
 html{
     background-color: #DDDDDD ;
-    
+    height:100%;
 }
 
 /* Header CSS */
@@ -142,20 +163,20 @@ footer div.cointer__footer__description{
 
 .footer__description--logo img{
     height: 125px;
-    padding: 15px;
+    padding: 5px;
     width: auto;
 }
 
 .footer__description__info{
     display:flex;
-    margin-top: 15px;
+    margin-top: 5px;
     
 }
 
 .footer__description__info p{
     color: white;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     width: 35vh;
 }
 
@@ -174,7 +195,7 @@ footer div.cointer__footer__team h6{
 
 footer div.cointer__footer__team a{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     margin-top:3px;
     text-decoration: none;
 }
@@ -195,7 +216,7 @@ footer div.cointer__footer__media h6{
 
 footer div.cointer__footer__media a{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     margin-top:3px;
     text-decoration: none;
 }
