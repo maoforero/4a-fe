@@ -78,13 +78,13 @@
 }
 
 html{
-    background-color: #DDDDDD ;
+    background-color: #FFF ;
     height:100%;
 }
 
 /* Header CSS */
 header{
-    background-color: #DDDDDD;
+    background-color: #F3F4ED;
     border-radius: 0 0 9px 9px;
     height:fit-content;
     position: sticky;
@@ -155,7 +155,7 @@ footer{
     flex-direction: row;
     flex-wrap: no-wrap;
     justify-content: space-around;
-    height: 20%;
+    height: 275px;
     width: 100%;
 }
 
