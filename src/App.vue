@@ -9,7 +9,7 @@
                 <ul id="menu--list">
                     <li class="list--option"><a href="">Inicio</a></li>
                     <li class="list--option"><a href="">Eventos</a></li>
-                    <li class="list--option"><a href="">Tickets</a></li>
+                    <li class="list--option"><a href="/tickets/">Tickets</a></li>
                     <li class="list--option"><a href="">Ventas</a></li>
                     <li class="list--option"><a href="">Perfil</a></li>
                 </ul>
@@ -52,8 +52,11 @@
         LoadLogin(){
           this.$router.push({name: "login"});
         },
-        loadSignup(){
+        LoadSignup(){
           this.$router.push({name: "signup"});
+        },
+        LoadTickets(){
+            this.$router.push({name: "Tickets"});
         }
 
       },
