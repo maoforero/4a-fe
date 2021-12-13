@@ -155,7 +155,7 @@ footer{
     flex-direction: row;
     flex-wrap: no-wrap;
     justify-content: space-around;
-    height: 25%;
+    height: 20%;
     width: 100%;
 }
 
