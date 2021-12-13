@@ -104,7 +104,6 @@ header{
     display: flex;
     flex-direction: row;
     height:fit-content;
-    justify-content: space-evenly;
     margin: 20px 65px 20px 65px;
     width: 250px;
 }
@@ -145,7 +144,7 @@ header{
 }
 
 #menu--list li a:hover {
-    color: #2EE59D;
+    color:  #27ae60;
 }
 
 /* Footer */

@@ -153,6 +153,12 @@
     width: 91%;
 }
 
+.login--buttonsSession > label{
+    align-items:center;
+    display:flex;
+    justify-content:center;
+}
+
 .buttonsSession--remember > input{
     align-self: center;
     margin-right:2px;
@@ -166,7 +172,7 @@
     color: #FFF;
     cursor:pointer;
     float: left;
-    font-size: 12px;
+    font-size: 14px;
     height:30px;
     text-decoration: none;
     text-shadow: 0px -2px #27ae60;
@@ -196,7 +202,7 @@
 }
 
 .login--buttonsLinks > p > a{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .login--buttonsLinks > p > a:hover{
@@ -225,7 +231,7 @@
     border-bottom: 5px solid #27ae60;
     color: #FFF;
     cursor:pointer;
-    font-size: 12px;
+    font-size: 14px;
     height: 28px;
     margin-top:9px;
     transition: all 0.1s;
