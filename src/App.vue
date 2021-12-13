@@ -16,9 +16,9 @@
             </nav>
         </div>
     </header>
-    <div>
-      <router-view></router-view>
-    </div>
+    
+    <router-view></router-view>
+    
     <footer>
         <div class="cointer__footer__description">
             <div class="footer__description--logo">
@@ -67,12 +67,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Tahoma;
+    height:100%
 }
 
 #app{
   display:flex;
   flex-direction: column;
   height:100%;
+  justify-content:space-between;
 }
 
 html{
@@ -84,6 +86,7 @@ html{
 header{
     background-color: #DDDDDD;
     border-radius: 0 0 9px 9px;
+    height:fit-content;
     position: sticky;
     top: 0;
     z-index: 6;
@@ -92,6 +95,7 @@ header{
 #container__header{
     display: flex;
     flex-direction: row;
+    height:fit-content;
     justify-content: space-between;
 }
 
@@ -99,6 +103,7 @@ header{
     align-items: center;
     display: flex;
     flex-direction: row;
+    height:fit-content;
     justify-content: space-evenly;
     margin: 20px 65px 20px 65px;
     width: 250px;
@@ -119,6 +124,7 @@ header{
 #container__menu{
     align-items: center;
     display: flex;
+    height:fit-content;
     justify-content: center;
     margin: 20px 65px 20px 65px;
 }
@@ -155,7 +161,7 @@ footer{
 }
 
 footer div.cointer__footer__description{
-    height: auto;
+    height:fit-content;
     margin: 20px 0 10px 25px;
     padding: 10px;
     width: 25vw;
@@ -183,7 +189,7 @@ footer div.cointer__footer__description{
 footer div.cointer__footer__team{
     display: flex;
     flex-direction: column;
-    height: auto;
+    height:fit-content;
     margin: 65px 0 10px 45px;
     width: 15vw;
 }

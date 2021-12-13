@@ -85,6 +85,7 @@
     align-self:center;
     display: flex;
     flex-direction: column;
+    height:fit-content;
     justify-content:center;
     margin:0 auto;
     width:28%;
