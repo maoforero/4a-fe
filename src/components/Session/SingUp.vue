@@ -53,11 +53,17 @@
                         <button class="buttonsSession--login">Registrarme</button> 
                     </div>
                 </div>
+
+                <div class="login--socialMedia">
+                    <p>Iniciar sesion</p>
+                </div>
             </div>
 
             <div class="container__login--mainImage">
                 <img class="mainImage"  src="../../assets/register.png" alt="">
             </div>
+
+
         </div>
     </div>
 </template>
@@ -210,12 +216,13 @@
     cursor:pointer;
     float: left;
     font-size: 14px;
-    height:30px;
+    font-weight:bold;
+    height:43px;
     text-decoration: none;
     text-shadow: 0px -2px #27ae60;
     -webkit-transition: all 0.1s;
     transition: all 0.1s;
-    width:100px;
+    width:170px;
 }
 
 .buttonsSession--login:hover, .buttonsSession--login:active {
@@ -252,13 +259,19 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top:5px;
+    margin-top:25px;
     justify-content: center;
 }
 
 .login--socialMedia > p {
     font-size: 12px;
     margin-bottom:10px;
+    color: rgba(24,179,2,1);
+    cursor:pointer;
+}
+
+.login--socialMedia > p:hover{
+    text-decoration: underline;
 }
 
 .login--socialMedia > button {
