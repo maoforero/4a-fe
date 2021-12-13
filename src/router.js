@@ -28,11 +28,11 @@ const routes = [
   //   name: 'sales',
   //   component:'Sales'
   // },
-  // {
-  //   path: '/events',
-  //   name: 'events',
-  //   component:'Events'
-  // },
+  {
+    path: '/user/events',
+    name: 'events',
+    component:Events,
+  },
   // {
   //   path: '/tickets',
   //   name: 'tickets',

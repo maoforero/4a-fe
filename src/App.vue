@@ -54,6 +54,9 @@
         },
         loadSignup(){
           this.$router.push({name: "signup"});
+        },
+        loadEvents(){
+          this.$router.push({name: "events"});
         }
 
       },

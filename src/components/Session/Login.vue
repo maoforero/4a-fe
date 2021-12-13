@@ -35,6 +35,16 @@
     </div>
 </template>
 
+<script>
+    export default{
+        name: "login",
+        data: function() {},
+        methods:{},
+        created: function (){}
+    }
+</script>
+
+
 <style scoped>
 *{
     margin: 0;
@@ -257,11 +267,3 @@
 
 </style>
 
-<script>
-    export default{
-        name: "login",
-        data: function() {},
-        methods:{},
-        created: function (){}
-    }
-</script>
