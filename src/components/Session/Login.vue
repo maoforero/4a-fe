@@ -66,7 +66,7 @@
 
 .container__login--mainImage{
     align-items: center;
-    background-color: rgba(24,179,2,1);
+    background-color: rgba(39,174,96,1);
     border-radius: 25px;
     display:flex;
     justify-content:center;

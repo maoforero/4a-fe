@@ -50,12 +50,15 @@
       data: function() {},
       methods:{
         LoadLogin(){
-          this.$router.push({name: "login"})
+          this.$router.push({name: "login"});
+        },
+        loadSignup(){
+          this.$router.push({name: "signup"});
         }
 
       },
       created: function (){
-        this.LoadLogin()
+        this.LoadLogin();
       }
   }
 </script>

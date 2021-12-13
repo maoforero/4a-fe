@@ -18,11 +18,11 @@ const routes = [
     name: 'login',
     component: Login,
   },
-  // {
-  //   path: '/signup',
-  //   name: 'signup',
-  //   component: 'Signup',
-  // },
+  {
+    path: '/user/signup',
+    name: 'signup',
+    component: Singup,
+  },
   // {
   //   path: '/sales',
   //   name: 'sales',
