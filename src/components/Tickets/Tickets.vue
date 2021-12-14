@@ -1,5 +1,5 @@
 <template>
-   <div class="main__tickets">
+    <div class="main__tickets">
         <div class="container__tickets">
             <div class="container__tickets--inputData">
                 <h3> Crear Boletas </h3>
@@ -47,19 +47,15 @@
                     <img class="inputDataPassImg" src="../../assets/organizer.png"/>
                     <input type="text" placeholder="Organizador">
                 </div>
-
-
-
-
             </div>
 
             <div class="tickets--buttons">
-                <div class="tickets--buttonsSession">
-                    <button class="buttonsSession--tickets">Generar Boletas</button> 
-                </div>
-
                 <div class="mainImage">
                     <img class="mainImage"  src="../../assets/boleta.png" alt="">
+                </div>
+
+                <div class="tickets--buttonsSession">
+                    <button class="buttonsSession--tickets">Generar Boletas</button> 
                 </div>
             </div>
         </div>           
