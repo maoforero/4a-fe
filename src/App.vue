@@ -57,6 +57,9 @@
         },
         LoadTickets(){
             this.$router.push({name: "Tickets"});
+        },
+        LoadTicketById(){
+            this.$router.push({name: "TicketByID"})
         }
 
       },
