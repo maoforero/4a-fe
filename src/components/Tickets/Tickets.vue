@@ -48,22 +48,19 @@
                     <input type="text" placeholder="Organizador">
                 </div>
 
-                <div class="tickets--buttons">
-                    <div class="tickets--buttonsSession">
-                        <button class="buttonsSession--tickets">Generar Boletas</button> 
-                    </div>
+
+
+
+            </div>
+
+            <div class="tickets--buttons">
+                <div class="tickets--buttonsSession">
+                    <button class="buttonsSession--tickets">Generar Boletas</button> 
                 </div>
-<<<<<<< HEAD
 
                 <div class="mainImage">
                     <img class="mainImage"  src="../../assets/boleta.png" alt="">
                 </div>
-
-=======
-                <div class="container__tickets--mainImage">
-                    <img class="mainImage"  src="../../assets/boleta.png" alt="">
-                </div>
->>>>>>> e4aca04ba64f71b1feaddcba0cc631ea1f1211ff
             </div>
         </div>           
     </div>
@@ -114,14 +111,8 @@
     border-radius: 25px;
     display:flex;
     justify-content:center;
-<<<<<<< HEAD
     width:550px;
-=======
-    width:200px;
->>>>>>> e4aca04ba64f71b1feaddcba0cc631ea1f1211ff
 }
-
-
 
 .mainImage{
     height: 200px;
@@ -249,7 +240,6 @@
     color: rgba(24,179,2,1);
     cursor:pointer;
 }
-<<<<<<< HEAD
 
 .tickets--buttonsLinks > p > a{
     font-size: 13px;
@@ -310,6 +300,4 @@
     height: 3px;
     margin-top:15px;
 }
-=======
->>>>>>> e4aca04ba64f71b1feaddcba0cc631ea1f1211ff
 </style>

@@ -55,19 +55,11 @@
         LoadSignup(){
           this.$router.push({name: "signup"});
         },
-<<<<<<< HEAD
         loadEvents(){
           this.$router.push({name: "events"});
         },
         LoadTickets(){
             this.$router.push({name: "tickets"});
-=======
-        LoadTickets(){
-            this.$router.push({name: "Tickets"});
-        },
-        LoadTicketById(){
-            this.$router.push({name: "TicketByID"})
->>>>>>> e4aca04ba64f71b1feaddcba0cc631ea1f1211ff
         }
 
       },
