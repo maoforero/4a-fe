@@ -2,7 +2,7 @@
     <div class="main__tickets">
         <div class="container__tickets">
             <div class="container__tickets--inputData">
-                <h3> Crear Boletas </h3>
+                <h3> CREAR BOLETAS </h3>
                 <div class="tickets--inputDataUser">
                     <img class="inputDataUserImg"  src="../../assets/ticket.png"/>
                     <input type="text" placeholder="Tipo">
@@ -25,12 +25,12 @@
 
                 <div class="tickets--inputDataPass">
                     <img class="inputDataPassImg" src="../../assets/calendar.png"/>
-                    <input type="Date" placeholder="Fecha">
+                    <input type="Date">
                 </div>
 
                 <div class="tickets--inputDataPass">
                     <img class="inputDataPassImg" src="../../assets/time.png"/>
-                    <input type="Time" placeholder="Hora">
+                    <input type="Time">
                 </div>
 
                 <div class="tickets--inputDataPass">
@@ -51,7 +51,7 @@
 
             <div class="tickets--buttons">
                 <div class="mainImage">
-                    <img class="mainImage"  src="../../assets/boleta.png" alt="">
+                    <img class="mainImage"  src="../../assets/Boleta2.png" alt="">
                 </div>
 
                 <div class="tickets--buttonsSession">
@@ -81,9 +81,12 @@
 }
 
 .main__tickets{
+    display:flex;
     height: auto;
-    margin:45px;
+    margin: 50px;
     width: 100%;
+    align-content: center;
+    justify-content: center;
 
 }
 
@@ -94,7 +97,6 @@
     display: flex;
     height: 800px;
     justify-content: space-between;
-    margin: auto;
     width: 840px;
 }
 
@@ -111,8 +113,8 @@
 }
 
 .mainImage{
-    height: 200px;
-    width: 350px;
+    height: 550px;
+    width: 500px;
 }
 
 
