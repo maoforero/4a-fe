@@ -2,7 +2,7 @@
    <div class="main__tickets">
         <div class="container__tickets">
             <div class="container__tickets--inputData">
-                <h3> Crear Boletas </h3>
+                <h3> CREAR BOLETAS </h3>
                 <div class="tickets--inputDataUser">
                     <img class="inputDataUserImg"  src="../../assets/ticket.png"/>
                     <input type="text" placeholder="Tipo">
@@ -47,20 +47,18 @@
                     <img class="inputDataPassImg" src="../../assets/organizer.png"/>
                     <input type="text" placeholder="Organizador">
                 </div>
-
-
-
-
             </div>
 
             <div class="tickets--buttons">
+
+                <div class="mainImage">
+                    <img class="mainImage"  src="../../assets/Boleta2.png" alt="">
+                </div>
+
                 <div class="tickets--buttonsSession">
                     <button class="buttonsSession--tickets">Generar Boletas</button> 
                 </div>
 
-                <div class="mainImage">
-                    <img class="mainImage"  src="../../assets/boleta.png" alt="">
-                </div>
             </div>
         </div>           
     </div>
@@ -86,7 +84,7 @@
 
 .main__tickets{
     height: auto;
-    margin:45px;
+    margin:500px;
     width: 100%;
 
 }
@@ -115,8 +113,8 @@
 }
 
 .mainImage{
-    height: 200px;
-    width: 350px;
+    height: 550px;
+    width: 500px;
 }
 
 
