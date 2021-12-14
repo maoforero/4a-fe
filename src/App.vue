@@ -32,7 +32,7 @@
             <h6>Members</h6>
             <a href="" class="footer__team--profile">Forero Mauro</a>
             <a href="" class="footer__team--profile">Herrera Nicolle</a>
-            <a href="" class="footer__team--profile">Paula</a>
+            <a href="" class="footer__team--profile">Paula Gonzales</a>
         </div>
         <div class="cointer__footer__media">
             <h6>Social Media</h6>
