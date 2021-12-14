@@ -182,7 +182,7 @@
     color: #FFF;
     cursor:pointer;
     float: left;
-    font-size: 14px;
+    font-size: 13px;
     height:30px;
     text-decoration: none;
     text-shadow: 0px -2px #27ae60;

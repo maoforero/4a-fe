@@ -80,10 +80,10 @@
 }
 
 #app{
-  display:flex;
-  flex-direction: column;
-  height:100%;
-  justify-content:space-between;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    justify-content:space-between;
 }
 
 html{
@@ -95,7 +95,7 @@ html{
 header{
     background-color: #F3F4ED;
     border-radius: 0 0 9px 9px;
-    height:fit-content;
+    height:105px;
     position: sticky;
     top: 0;
     z-index: 6;
@@ -164,6 +164,7 @@ footer{
     flex-direction: row;
     flex-wrap: no-wrap;
     justify-content: space-around;
+    justify-self: flex-end;
     height: 275px;
     width: 100%;
 }
