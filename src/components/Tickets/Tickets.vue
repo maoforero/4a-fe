@@ -25,12 +25,12 @@
 
                 <div class="tickets--inputDataPass">
                     <img class="inputDataPassImg" src="../../assets/calendar.png"/>
-                    <input type="Date" placeholder="Fecha">
+                    <input type="Date">
                 </div>
 
                 <div class="tickets--inputDataPass">
                     <img class="inputDataPassImg" src="../../assets/time.png"/>
-                    <input type="Time" placeholder="Hora">
+                    <input type="Time">
                 </div>
 
                 <div class="tickets--inputDataPass">
