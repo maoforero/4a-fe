@@ -6,37 +6,32 @@ import Tickets from './components/Tickets/Tickets.vue'
 import Sales from './components/Sales/Sales.vue'
 import Events from './components/Events/Events.vue'
 
-
-const routes = [{
-        path: '/',
-        name: 'root',
-        component: App
-    },
-    {
-        path: '/user/login',
-        name: 'login',
-        component: Login,
-    },
-    {
-        path: '/user/signup',
-        name: 'signup',
-        component: Singup,
-    },
-    // {
-    //   path: '/sales',
-    //   name: 'sales',
-    //   component:'Sales'
-    // },
-    // {
-    //   path: '/events',
-    //   name: 'events',
-    //   component:'Events'
-    // },
-    {
-        path: '/user/tickets',
-        name: 'tickets',
-        component: Tickets,
-    },
+const routes = [
+  {
+    path: '/',
+    name: 'root',
+    component: App
+  },
+  {
+    path: '/user/login',
+    name: 'login',
+    component: Login,
+  },
+  {
+    path: '/user/signup',
+    name: 'signup',
+    component: Singup,
+  },
+  {
+    path: '/user/events',
+    name: 'events',
+    component:Events,
+  },
+  {
+      path: '/user/tickets',
+      name: 'tickets',
+      component: Tickets,
+  },
 ]
 
 const router = createRouter({

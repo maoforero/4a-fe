@@ -48,12 +48,17 @@
                     <input type="text" placeholder="Organizador">
                 </div>
 
-                <div class="tickets--buttons">
-                    <div class="tickets--buttonsSession">
-                        <button class="buttonsSession--tickets">Generar Boletas</button> 
-                    </div>
+
+
+
+            </div>
+
+            <div class="tickets--buttons">
+                <div class="tickets--buttonsSession">
+                    <button class="buttonsSession--tickets">Generar Boletas</button> 
                 </div>
-                <div class="container__tickets--mainImage">
+
+                <div class="mainImage">
                     <img class="mainImage"  src="../../assets/boleta.png" alt="">
                 </div>
             </div>
@@ -106,10 +111,8 @@
     border-radius: 25px;
     display:flex;
     justify-content:center;
-    width:200px;
+    width:550px;
 }
-
-
 
 .mainImage{
     height: 200px;
@@ -236,5 +239,65 @@
 .tickets--buttonsLinks > p {
     color: rgba(24,179,2,1);
     cursor:pointer;
+}
+
+.tickets--buttonsLinks > p > a{
+    font-size: 13px;
+}
+
+.tickets--buttonsLinks > p > a:hover{
+    text-decoration: underline;
+}
+
+/* Buttons Social Media*/
+
+.tickets--socialMedia{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top:25px;
+    justify-content: center;
+}
+
+.tickets--socialMedia > p {
+    font-size: 12px;
+    margin-bottom:10px;
+    color: rgba(24,179,2,1);
+    cursor:pointer;
+}
+
+.tickets--socialMedia > p:hover{
+    text-decoration: underline;
+}
+
+.tickets--socialMedia > button {
+    background-color: #2ecc71;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 5px solid #27ae60;
+    color: #FFF;
+    cursor:pointer;
+    font-size: 14px;
+    height: 28px;
+    margin-top:9px;
+    transition: all 0.1s;
+    text-decoration: none;
+    text-shadow: 0px -2px #27ae60;
+    -webkit-transition: all 0.1s;
+    width: 90%
+}
+
+.tickets--socialMedia > button:hover, .login--socialMedia > button:active {
+    -webkit-transform: translate(0px,5px);
+    -ms-transform: translate(0px,5px);
+    transform: translate(0px,5px);
+    border-bottom: 1px solid #2ecc71;
+}
+
+.line{
+    background-color: #000;
+    border-radius:5px;
+    height: 3px;
+    margin-top:15px;
 }
 </style>
