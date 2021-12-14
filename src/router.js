@@ -7,6 +7,7 @@ import Sales from './components/Sales/Sales.vue'
 import Events from './components/Events/Events.vue'
 
 
+<<<<<<< HEAD
 const routes = [
   {
     path: '/',
@@ -38,6 +39,38 @@ const routes = [
       name: 'tickets',
       component: Tickets,
   },
+=======
+const routes = [{
+        path: '/',
+        name: 'root',
+        component: App
+    },
+    {
+        path: '/user/login',
+        name: 'login',
+        component: Login,
+    },
+    {
+        path: '/user/signup',
+        name: 'signup',
+        component: Singup,
+    },
+    // {
+    //   path: '/sales',
+    //   name: 'sales',
+    //   component:'Sales'
+    // },
+    // {
+    //   path: '/events',
+    //   name: 'events',
+    //   component:'Events'
+    // },
+    {
+        path: '/user/tickets',
+        name: 'tickets',
+        component: Tickets,
+    },
+>>>>>>> e4aca04ba64f71b1feaddcba0cc631ea1f1211ff
 ]
 
 const router = createRouter({
